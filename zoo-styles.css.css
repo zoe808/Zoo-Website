@@ -1,0 +1,82 @@
+body{
+    background-color: #F5D8D1;
+    font-family: Trebuchet MS, sans-serif;
+}
+#container{
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: #F6EDF1;
+    border-right: solid 2px #A67C78;
+    border-left: solid 2px #A67C78;
+}
+/*Text Tag Styles*/
+h1{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 76px;
+    color: #724B4E;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2{
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 26px;
+    color: #724B4E;
+}
+h3{
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 26px;
+    color: #724B4E;
+}
+p{
+    font-size: 16px;
+    color: #724B4E;
+    padding: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+/*Menu Styles*/
+#menu{
+    width: 170px;
+    float: left;
+}
+#menu ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#menu li{
+    background-color: #F8DDD0;
+    border: 2px solid #A67C78;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+#menu a:link, #menu a:visited{
+    color: #724B4E;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu a:hover, #menu a:active{
+    color: #A67C78;
+    text-decoration: underline;
+}
+/*Link Styles*/
+a:link, a:visited{
+    color: #A67C78;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover, a:active{
+    color: #724B4E;
+    text-decoration: underline;
+}
+/*Class Styles*/
+.rightfloat{
+    border: 2px solid #724B4E;
+    margin: 8px;
+    float: right;
+}
